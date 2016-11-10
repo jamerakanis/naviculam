@@ -1,0 +1,181 @@
+/*general*/
+body
+{
+	background-image:url('images/back.jpg');
+	padding:0px;
+	margin:0px;
+	text-align:center;
+}
+
+a
+{
+	text-decoration:none;
+}
+
+h1
+{
+	font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+	border:2px solid white;
+	border-radius:30px;
+}
+
+h2
+{
+	font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+	color:greenyellow;
+	font-size:2em;
+	float:left;
+}
+
+p
+{
+	border:2px solid white;
+	border-radius:30px;
+	padding:3%;
+	font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+}
+
+/*Menu*/
+
+div.buttonHold
+{
+	width:100%;
+	display:block;
+	text-align:right;
+}
+
+div.button
+{
+	width:80px;
+	padding:2%;
+	display:inline-block;
+}
+
+img.insta
+{
+	width:100%;
+}
+
+div.menu
+{
+	text-align:left;
+	margin:1% 0% 0.5% 0%;
+	padding:0% 2% 0% 2%;
+	transition:background-color 0.2s ease;
+	background-color:rgba(0,0,139,0.5);
+	overflow:hidden;
+}
+
+div.menu:hover
+{
+	background-color:darkblue;
+}
+
+div.menuButtonHolder
+{
+	display:inline;
+	border:0px solid black;
+	border-radius:10px;
+	float:right;
+}
+
+div.menuButton
+{
+	display:inline-block;
+	transition:background-color 0.2s ease;
+	background-color:rgba(0,0,139,0);
+	color:greenyellow;
+	border:0px solid black;
+	border-radius:10px;
+	padding:5px;
+	font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+}
+
+div.menuButton:hover
+{
+	background-color:greenyellow;
+	color:darkblue;
+}
+
+/*opener*/
+
+
+h1.head
+{
+	font-size:5em;
+}
+
+div.head
+{
+	color:greenyellow;
+	border:0px solid black;
+	border-radius:30px;
+	padding:5%;
+	transition: background-color 0.5s ease;
+	background-color:rgba(0,0,139,0.5);
+	margin:0px 10% 0px 10%;
+}
+
+div.head:hover
+{
+	background-color:greenyellow;
+	color:darkblue;
+}
+
+.intro
+{
+	font-size:1.4em;
+	text-align:left;
+}
+
+img.body
+{
+	width:90%;
+	border:0px solid white;
+	border-radius:20px;
+}
+
+div.half
+{
+	color:greenyellow;
+	margin:0.5%;
+	display:inline-block;
+	width:32%;
+	border:0px solid black;
+	border-radius:20px;
+	padding:4%;
+	transition: background-color 0.5s ease;
+	background-color:darkblue;
+	transition: height 0.5s ease;
+	transition: width 0.5s ease;
+}
+
+div.half:hover
+{
+	width:38%;
+	background-color:greenyellow;
+	color:darkblue;
+}
+
+img.divider
+{
+	width:100%;
+}
+
+ol.general
+{
+	font-size:1.4em;
+	text-align:left;
+	font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+	border:2px solid white;
+	border-radius:30px;
+}
+
+
+
+
+
+
+
+
+
